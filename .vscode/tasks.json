@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "ObstacleAssualt Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Test",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Test",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Test",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Shipping",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Shipping",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"Mac",
+				"Shipping",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Test",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Test",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Test",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Shipping",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Shipping",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualt IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualt IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualt",
+				"IOS",
+				"Shipping",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualtEditor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"Debug",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualtEditor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"DebugGame",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"ObstacleAssualtEditor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		},
+		{
+			"label": "ObstacleAssualtEditor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"ObstacleAssualtEditor",
+				"Mac",
+				"Development",
+				"/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/ObstacleAssualt.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.1"
+			}
+		}
+	]
+}

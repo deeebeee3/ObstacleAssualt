@@ -1,0 +1,42 @@
+[
+	{
+		"file": "/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/Source/ObstacleAssualt/MovingPlatform.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/.vscode/compileCommands_ObstacleAssualt/ObstacleAssualt.241.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
+	},
+	{
+		"file": "/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/Source/ObstacleAssualt/MovingPlatform.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/.vscode/compileCommands_ObstacleAssualt/ObstacleAssualt.241.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
+	},
+	{
+		"file": "/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/Source/ObstacleAssualt/ObstacleAssualt.Build.cs",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/.vscode/compileCommands_ObstacleAssualt/ObstacleAssualt.241.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
+	},
+	{
+		"file": "/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/Source/ObstacleAssualt/ObstacleAssualt.cpp",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/.vscode/compileCommands_ObstacleAssualt/ObstacleAssualt.241.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
+	},
+	{
+		"file": "/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/Source/ObstacleAssualt/ObstacleAssualt.h",
+		"arguments": [
+			"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+			"@/Users/deepakbhari/Documents/Unreal Projects/ObstacleAssualt/.vscode/compileCommands_ObstacleAssualt/ObstacleAssualt.241.rsp"
+		],
+		"directory": "/Users/Shared/Epic Games/UE_5.1/Engine/Source"
+	}
+]
